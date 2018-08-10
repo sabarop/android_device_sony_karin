@@ -16,12 +16,13 @@
 
 $(call inherit-product, device/sony/karin/full_karin.mk)
 
-# Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_karin
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys \
-    PRIVATE_BUILD_DESC="Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170609-1025/1:user/dev-keys"
+  PRODUCT_NAME=karin \
+  BUILD_FINGERPRINT=Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170920-0229/1:user/dev-keys \
+  PRIVATE_BUILD_DESC="karin-user 7.1.1 N-MR1-KITAKAMI-170920-0229 1 dev-keys"
