@@ -30,11 +30,11 @@ TARGET_OTA_ASSERT_DEVICE := SGP771,karin
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_karin_defconfig
 
-# Inherit from the proprietary version
--include vendor/sony/karin/BoardConfigVendor.mk
-
 # FDroid
 WITH_FDROID := true
 
 # microG
 WITH_MICROG := true
+
+# Inherit from the proprietary version
+-include vendor/sony/karin/BoardConfigVendor.mk
