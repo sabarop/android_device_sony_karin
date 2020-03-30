@@ -18,11 +18,17 @@ include device/sony/karin_windy/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/karin
 
+# Use Snapdragon LLVM, if available
+TARGET_USE_SDCLANG := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Radio
 TARGET_HAVE_RADIO := true
+
+# Security Patch Level
+VENDOR_SECURITY_PATCH := 2017-09-01
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP771,karin
@@ -32,9 +38,6 @@ TARGET_KERNEL_CONFIG := kitakami_karin_defconfig
 
 # FDroid
 WITH_FDROID := true
-
-# microG
-WITH_MICROG := true
 
 # Inherit from the proprietary version
 -include vendor/sony/karin/BoardConfigVendor.mk
