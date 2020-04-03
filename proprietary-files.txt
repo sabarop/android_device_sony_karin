@@ -162,6 +162,7 @@ vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libseemore.so
 vendor/lib64/libmmcamera2_q3a_core.so
 vendor/lib64/libmmcamera2_sensor_debug.so
 vendor/lib64/libmmcamera2_stats_algorithm.so
@@ -195,6 +196,8 @@ etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera module
+lib/libcameralight.so
+lib64/libcameralight.so
 vendor/camera/LGI05BN0/color_ctrl.dat
 vendor/camera/LGI05BN0/dataflow.dat
 vendor/camera/LGI05BN0/debug_mgr.dat
