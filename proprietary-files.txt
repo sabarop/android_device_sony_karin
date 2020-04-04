@@ -51,7 +51,6 @@ lib/libsomc_raisinrsc.so
 lib/libsomc_spica.so
 lib/libsomc_spicarsc.so
 lib/libsomc_thermal.so
-lib/libsomc_thermal.so
 lib/libsomc_toppo.so
 lib/libsomc_topporsc.so
 lib/libsomc_yummy.so
