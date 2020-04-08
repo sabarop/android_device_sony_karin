@@ -36,8 +36,8 @@ TARGET_OTA_ASSERT_DEVICE := SGP771,karin
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_karin_defconfig
 
-# FDroid
-WITH_FDROID := true
+# Wifi
+WIFI_BUS := PCIE
 
 # Inherit from the proprietary version
 -include vendor/sony/karin/BoardConfigVendor.mk
