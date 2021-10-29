@@ -30,5 +30,8 @@ TARGET_OTA_ASSERT_DEVICE := SGP771,karin
 # Boot image/kernel
 TARGET_KERNEL_CONFIG := kitakami_karin_defconfig
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_karin
+
 # Inherit from the proprietary version
 -include vendor/sony/karin/BoardConfigVendor.mk
