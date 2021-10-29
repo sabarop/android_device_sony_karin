@@ -27,5 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=karin \
-  BUILD_FINGERPRINT=Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170920-0229/1:user/dev-keys \
   PRIVATE_BUILD_DESC="karin-user 7.1.1 N-MR1-KITAKAMI-170920-0229 1 dev-keys"
+
+# Build fingerprint
+BUILD_FINGERPRINT=Sony/karin/karin:7.1.1/N-MR1-KITAKAMI-170920-0229/1:user/dev-keys
